@@ -1,11 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, MapPin, Calendar, Users } from "lucide-react";
-import heroImage from "@/assets/kerala-hero.jpg";
 const Hero = () => {
   return <section id="home" className="relative min-h-screen flex items-center">
       {/* Background Image */}
       <div className="absolute inset-0">
-        <img src={heroImage} alt="Kerala Backwaters - JV Holidays" className="w-full h-full object-cover" />
+        <img src="/lovable-uploads/kerala.png" alt="Kerala Backwaters - JV Holidays" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/80 via-primary/50 to-transparent"></div>
       </div>
 

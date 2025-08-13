@@ -2,9 +2,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { MapPin, Calendar, Users, Star } from "lucide-react";
-import wildlifeImage from "@/assets/wildlife-card.jpg";
-import honeymoonImage from "@/assets/honeymoon-card.jpg";
-import familyImage from "@/assets/family-card.jpg";
 import { useEffect, useState } from "react";
 
 // Improved descriptions with better readability and SEO
